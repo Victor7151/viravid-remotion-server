@@ -29,10 +29,11 @@
     "typescript": "5.9.3"
   },
   "scripts": {
-    "start": "tsx server.ts",
-    "build": "tsc",
-    "server": "tsx watch server.ts",
-    "studio": "remotion studio",
-    "dev": "remotion studio"
-  }
+  "start": "tsx server.ts",
+  "build": "tsc",
+  "server": "tsx watch server.ts",
+  "studio": "remotion studio",
+  "dev": "remotion studio",
+  "postinstall": "remotion browser ensure"
+}
 }
